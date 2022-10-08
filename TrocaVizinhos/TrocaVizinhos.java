@@ -15,8 +15,9 @@ class TrocaVizinhos {
         }
 
     static void troca_vizinhos(String[] v){
+        String aux = "";
         for (int i = 0, j = 1; j < v.length; i+=2, j+=2) {
-            String aux = v[i];
+            aux = v[i];
             v[i] = v[j];
             v[j] = aux;
         }       
