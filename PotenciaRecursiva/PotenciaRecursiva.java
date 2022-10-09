@@ -15,7 +15,7 @@ class PotenciaRecursiva {
 
     static int potencia(int i, int j, int out) {
 
-        if(j <= 0){ return out;}
+        if(j == 0){ return out;}
         out *= i;
 
         return potencia(i, j-1, out);
