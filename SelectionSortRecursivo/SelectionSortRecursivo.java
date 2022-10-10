@@ -27,7 +27,7 @@ class SelectionSortRecursivo {
         swap(array, i, indexDoMenor);
         System.out.println(Arrays.toString(array));
 
-        return selectionSort(array, i + 1);
+        return selectionSort(array, i+1);
     }
 
     static void swap(String[] array, int indexDoMenor, int i) {
