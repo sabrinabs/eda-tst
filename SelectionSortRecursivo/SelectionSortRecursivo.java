@@ -15,8 +15,8 @@ class SelectionSortRecursivo {
 
     static String[] selectionSort(String[] array, int i){
 
-        if (i >= array.length - 1){return array;}
-        
+        if (i == array.length - 1){return array;}
+
         int indexDoMenor = i;
         for (int j = i+1; j < array.length; j++) {
             if(Integer.parseInt(array[j]) < Integer.parseInt(array[indexDoMenor])){
