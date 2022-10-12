@@ -29,7 +29,7 @@ class InserePrimeiro {
 
     static void swap(String[] array, int i, int j){
         String aux = array[i];
-        array[i] = array[i+1];
-        array[i+1] = aux;
+        array[i] = array[j];
+        array[j] = aux;
     }
 }
