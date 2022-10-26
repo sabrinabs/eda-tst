@@ -31,8 +31,8 @@ class CountingSortPassoAPasso{
         //locacao
         int[] b = new int[a.length];
         for (int j = a.length - 1; j >= 0; j--){
+            b[c[a[j]]-1] = a[j];
             c[a[j]]--;
-            b[c[a[j]]] = a[j];
         }
 
         System.out.println(formataSaida(c));
