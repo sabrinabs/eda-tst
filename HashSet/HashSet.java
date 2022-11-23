@@ -1,3 +1,7 @@
+// essa solução utilizava uma flag para marcar uma posição que ficou vaga após a remoção de um elemento, porém
+// para essa questão isso não era necessário. Dessa forma, a solução mais simples pra esse questão em específico
+// está no arquivo HashSetImpl
+
 package HashSet;
 
 import java.util.Arrays;
